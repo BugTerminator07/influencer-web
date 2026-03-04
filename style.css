@@ -1,0 +1,75 @@
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 36px;
+    width: 36px;
+    background: transparent;
+    mix-blend-mode: multiply;
+
+}
+nav {
+    width: 77%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+
+}
+
+.title h2{
+    font-size: 24;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    font-weight: 600;
+}
+.title-container{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 120px;
+    display: flex;
+    gap: 17rem;
+}
+.title-image img{
+    width: 29.7rem;
+    height: 29.7rem;
+}
+.title-writting h1{
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: bold;
+    padding-top: 120px;
+}
+.title-writting p{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 16px;
+}
+.btn{
+width: 196px;
+height: 44px;
+background-color: #E02C6D;
+color: #FFFFFF;
+font-size: 16px;
+font: bold;
+border-radius: 20px;
+margin-top: 16px;
+align-items: center;
+}
+.btn i{
+    padding-left: 10px;
+}
+
