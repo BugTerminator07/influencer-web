@@ -68,8 +68,139 @@ font: bold;
 border-radius: 20px;
 margin-top: 16px;
 align-items: center;
+border: 0;
 }
 .btn i{
     padding-left: 10px;
 }
+.opp{
+ width: 72%;
+    max-width: 1110px;
+    height: 110px;
+    margin:69px 165px 110px 165px;
+}
+.sponsors{
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+}
+.sponser-icon{
+    width: 120px;
+    height: 40px;
+}
+.collection{
+    width: 68%;
+    max-width: 1047px;
+    height: 1662px;
+    margin: 0 auto;
+}
+.collection h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(3, 1fr);    /* 3 equal rows */
+  gap: 10px; 
+}
+.card{
+    width: 329px;
+    height: 476px;
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 #0000004b;
+}
+.card img{
+    width: 320px;
+    height: 256px;
+    padding: 17px 15px 16px 17px;
+}
+.card-price{
+    font-size: 24px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.card-head{
+    font-size: 28px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+.card-body {
+    font-size: 14px;
+    color: gray;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.below-btn {
+    width: 99px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    color: #E02C6D;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 900px;
+    font-size: large;
+    font: 700;
 
+}
+
+.final-container{
+    width: 73%;
+    max-width: 1110px;
+    height: 270px;
+    margin: 0 auto;
+    display: flex;
+}
+.final-img {
+    width: 404px;
+    height: 270px;
+}
+.btn-end{
+    width: 155px;
+height: 44px;
+background-color: #E02C6D;
+color: #FFFFFF;
+font-size: 16px;
+font: bold;
+margin-top: 16px;
+align-items: center;
+border: 0;
+}
+.final-text{
+    padding: 23px 0 23px 96px;
+}
+.final-head{
+    font-size: 38px;
+    font-weight: bold;
+}
+.final-text p{
+    font-size: 16px;
+    font: bold;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-top: 16px;
+}
+footer{
+    background-color: rgb(4, 4, 43);
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+}
+.footer-div {
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-div h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-div p{
+    font-size: 16px;
+    color: gray;
+}
